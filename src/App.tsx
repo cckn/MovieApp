@@ -1,17 +1,14 @@
 import React from 'react'
-import styled from 'styled-components/native'
-import { Text } from 'react-native'
-
-const Container = styled.View``
+import { StatusBar } from 'react-native'
+import Navigator from '~/Screens/Navigator'
 
 interface Props {}
 
 const App: React.FC<Props> = () => {
   return (
     <>
-      <Container>
-        <Text>Hello RN!</Text>
-      </Container>
+      <StatusBar barStyle="light-content"></StatusBar>
+      <Navigator></Navigator>
     </>
   )
 }

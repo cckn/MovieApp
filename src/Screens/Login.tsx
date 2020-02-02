@@ -63,6 +63,6 @@ Login.navigationOptions = {
   title: 'MOVIEAPP',
   headerTransparent: true,
   headerTintColor: '#E70915',
-  headerTitleStyle: { fontWeight: 'bold' },
+  //   headerTitleStyle: { fontWeight: '100' },
 }
 export default Login
